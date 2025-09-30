@@ -1,334 +1,190 @@
-# 🎮 Pokédx V2.0 PWA - A Evolução Definitiva
+# 🔍 Pokédx V2.0
 
-> **Progressive Web App Premium desenvolvida pela Equipe SID Elite**
+Uma Pokédex moderna e completa desenvolvida com **Vanilla JavaScript**, oferecendo uma experiência interativa para explorar o mundo Pokémon com todas as 9 gerações disponíveis.
 
-[![PWA](https://img.shields.io/badge/PWA-Ready-brightgreen)](/) 
-[![Performance](https://img.shields.io/badge/Lighthouse-95+-brightgreen)](#) 
-[![Offline](https://img.shields.io/badge/Offline-100%25-blue)](#)
-[![Version](https://img.shields.io/badge/Version-2.0.0-red)](#)
+![Pokédx V2.0](https://via.placeholder.com/800x400/667eea/white?text=Pok%C3%A9dx+V2.0)
 
-## 🚀 **Visão Geral**
+## ✨ Funcionalidades
 
-A **Pokédx V2.0** representa um marco tecnológico no desenvolvimento de Progressive Web Apps, oferecendo uma experiência premium que rivaliza com aplicações nativas. Desenvolvida pela renomada **Equipe SID Elite**, esta aplicação estabelece novos padrões de qualidade e inovação.
+### 🗂️ Pokédex Completa
+- **Todas as 9 gerações** (Kanto até Paldea)
+- **1025+ Pokémon** disponíveis
+- Busca por nome ou número
+- Filtro por geração
+- Carregamento progressivo otimizado
+- Imagens em alta qualidade
 
-### **✨ Principais Características**
+### ⚖️ Comparador de Pokémon
+- Compare estatísticas base
+- Análise de tipos e efetividade
+- Comparação visual interativa
+- Informações detalhadas
 
-- 🌐 **Progressive Web App completa** - Instalável como app nativo
-- 🔄 **Funcionamento 100% offline** após primeira visita
-- 📱 **Mobile-first responsive** design premium
-- ⚡ **Performance excepcional** - Lighthouse 95+ garantido
-- 🎮 **Gaming-inspired UX** com animações fluidas
-- 🌙 **Dark mode** e temas personalizáveis
-- ♿ **Acessibilidade total** WCAG 2.1 AA compliant
+### 👥 Construtor de Equipes
+- Monte equipes de até 6 Pokémon
+- Salve múltiplas equipes
+- Diferentes categorias (PvP, PvE, Competitivo, Casual)
+- Exportação e importação de equipes
+- Armazenamento local persistente
 
----
+## 🚀 Tecnologias Utilizadas
 
-## 🎯 **Funcionalidades V2.0**
+- **HTML5** - Estrutura semântica
+- **CSS3** - Design moderno com Grid e Flexbox
+- **Vanilla JavaScript** - Lógica de aplicação pura
+- **PokéAPI** - Fonte de dados oficial
+- **LocalStorage** - Persistência de dados local
 
-### **📚 Pokédx Avançada**
-- 🗺️ **Suporte às 9 gerações** (1025+ Pokémon)
-- 🔍 **Busca inteligente** com sugestões automáticas
-- 🏷️ **Filtros avançados** por geração, tipo, estatísticas
-- ⭐ **Sistema de favoritos** com sincronização
-- 📊 **Estatísticas detalhadas** e informações completas
+## 🎨 Design e UX
 
-### **⚔️ Battle Simulator Estratégico**
-- 🥊 **Batalhas 1v1** com cálculos reais de dano
-- 🧮 **Sistema de tipos** com efetividades precisas
-- 📈 **Análise probabilística** de resultados
-- 🏆 **Ranking pessoal** de vitórias/derrotas
-- 🎯 **Estratégias recomendadas** baseadas em IA
+- **Responsivo** - Funciona perfeitamente em dispositivos móveis
+- **Acessibilidade** - Seguindo padrões WCAG
+- **Loading States** - Feedback visual durante carregamentos
+- **Animações Suaves** - Transições CSS otimizadas
+- **Dark Mode** - Suporte automático baseado em preferência do sistema
 
-### **🔍 Comparador Multi-Pokémon**
-- 📊 **Compare até 4 Pokémon** simultaneamente
-- 📈 **Gráficos de radar** para visualização
-- ⚡ **Análise de vantagens/desvantagens**
-- 💡 **Sugestões inteligentes** de equipe
-- 📤 **Exportação** de comparações em JSON
+## 📦 Instalação e Uso
 
-### **👥 Team Builder Profissional**
-- 🛡️ **Equipes personalizadas** por categoria (PvP, PvE, etc.)
-- 📊 **Análise de sinergia** automática
-- 💾 **Backup e sincronização** entre dispositivos  
-- 🔄 **Importar/Exportar** equipes
-- 🎯 **Recomendações estratégicas** de montagem
-
-### **🏆 Sistema de Conquistas Gamificado**
-- 🎯 **Achievements desbloqueáveis** por progresso
-- 📈 **Tracking de completion** da Pokédx
-- 🏅 **Badges exclusivos** por marcos atingidos
-- 📊 **Estatísticas detalhadas** de uso
-- 🎉 **Celebrações visuais** por conquistas
-
----
-
-## 👥 **Equipe de Desenvolvimento Elite**
-
-### **🌟 Dr. Mariana Torres** - CEO & Strategic Innovation Director
-*PhD Stanford University | World Economic Forum Young Global Leader*
-- 🎯 Roadmap estratégico e visão de produto
-- 📊 Arquitetura para escalabilidade empresarial
-- 💰 ROI e alinhamento com objetivos de negócio
-
-### **🔧 Ricardo Almeida, M.Eng.** - COO & Operational Excellence Director
-*MIT Master | Lean Six Sigma Master Black Belt*
-- 🚀 Metodologia ágil e entrega contínua
-- 📈 Migração zero-downtime V1.0→V2.0
-- 🔄 CI/CD pipeline e automação
-
-### **⚙️ Michael Douglas** - Principal Software Architect
-*PhD Stanford | AWS Solutions Architect Professional*
-- 🏗️ Arquitetura PWA e Service Worker
-- ⚡ Performance optimization e caching
-- 🔒 Security e escalabilidade enterprise
-
-### **💻 Fernanda Martins, B.S.** - Staff Frontend Engineer
-*MIT Magna Cum Laude | React Core Team Advisory*
-- 🎨 Interface premium e experiência do usuário
-- 📱 PWA specialist e Web Performance expert
-- ♿ Acessibilidade e responsive design
-
-### **🎨 Ygor Silva, MFA** - Chief Design Officer
-*Parsons School of Design | D&AD Winner*
-- 🎮 Design system gaming-inspired
-- ✨ Animações avançadas e micro-interações
-- 🌈 Temas e identidade visual premium
-
----
-
-## 🛠️ **Tecnologias & Arquitetura**
-
-### **Stack Tecnológica**
-```javascript
-Frontend: JavaScript ES6+ Vanilla (Modular)
-Styling: CSS3 Advanced (Custom Properties + Themes)  
-Storage: IndexedDB + LocalStorage Híbrido
-Caching: Multi-layer Service Worker
-APIs: PokeAPI V2 + Background Sync
-Performance: Web Workers + Lazy Loading
-PWA: Full Manifest + SW + Push Notifications
+### Opção 1: Uso Direto
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/pokedx-v2.git
+cd pokedx-v2
 ```
 
-### **Padrões Arquiteturais**
-- 🏗️ **Module Pattern** - Encapsulamento limpo
-- 👁️ **Observer Pattern** - Comunicação eficiente
-- 🏭 **Factory Pattern** - Criação otimizada
-- 🎯 **Singleton Pattern** - Gerência centralizadas
-- 📐 **MVC Pattern** - Separação de responsabilidades
+2. Abra o arquivo `index.html` em seu navegador
 
----
-
-## 📊 **Performance Benchmarks**
-
-### **⚡ Métricas Otimizadas**
-- 🎯 **Lighthouse Score**: 95+ garantido
-- 🚀 **First Contentful Paint**: < 1.5s
-- ⚡ **Time to Interactive**: < 3s em 3G  
-- 📦 **Bundle Size**: < 800KB otimizado
-- 🔄 **Cache Hit Rate**: 85%+ offline
-- 📱 **Mobile Performance**: Native-app level
-
-### **♿ Acessibilidade Premium**
-- ✅ **WCAG 2.1 AA** compliance completo
-- ⌨️ **Navegação por teclado** 100% funcional
-- 🔊 **Screen reader** otimizado
-- 🎨 **Alto contraste** suportado
-- 🌐 **Multilingual ready** (PT/EN/ES)
-
----
-
-## 🚀 **Quick Start**
-
-### **📥 Instalação**
+### Opção 2: Servidor de Desenvolvimento
+1. Instale as dependências:
 ```bash
-# 1. Download do projeto
-# (Extrair ZIP fornecido)
-
-# 2. Navegação
-cd Pokedx_V2_PWA
-
-# 3. Servidor local
-python -m http.server 8000
-# ou
-npx serve .
-
-# 4. Acesso
-http://localhost:8000
+npm install
 ```
 
-### **📱 Instalação PWA**
-1. **Web**: Clique no botão "📱 Instalar App" 
-2. **Mobile**: Menu → "Adicionar à tela inicial"
-3. **Desktop**: Chrome → Menu → "Instalar Pokédx"
-4. **Offline**: Funciona completamente offline após install
-
----
-
-## 🎮 **Como Usar**
-
-### **🏠 Dashboard**
-- 📊 Veja progresso da Pokédx completa
-- 🏆 Acompanhe conquistas desbloqueadas  
-- ⚔️ Estatísticas de batalhas
-- 👥 Equipes criadas
-
-### **📚 Pokédx**
-- 🔍 Busque por nome ou número
-- 🏷️ Filtre por geração e tipo
-- ⭐ Marque favoritos
-- 👁️ Veja detalhes completos
-
-### **⚔️ Batalhas**
-- 🥊 Selecione dois Pokémon para batalha
-- 📊 Veja cálculos estratégicos
-- 🎲 Experimente batalhas aleatórias
-- 📈 Acompanhe seu ranking
-
-### **👥 Teams**
-- 🛡️ Monte equipes estratégicas
-- 📂 Organize por categorias
-- 💾 Salve e gerencie múltiplas equipes
-- 📤 Exporte/importe configurações
-
-### **🔍 Comparador**
-- 📊 Compare até 4 Pokémon
-- 📈 Visualize gráficos comparativos  
-- ⚡ Analise vantagens/desvantagens
-- 📋 Exporte análises
-
----
-
-## 🏆 **Conquistas Disponíveis**
-
-| Conquista | Descrição | Critério |
-|-----------|-----------|----------|
-| 🎯 **Primeiro Pokémon** | Visualize seu primeiro Pokémon | Ver 1 Pokémon |
-| 👑 **Mestre da Geração** | Complete uma geração inteira | Ver todos de 1 geração |
-| 👥 **Construtor de Equipes** | Crie sua primeira equipe | Criar 1 equipe |
-| 🏆 **Campeão de Batalhas** | Domine as batalhas | 10 vitórias |
-| 🗺️ **Explorador** | Explore extensivamente | Ver 100 Pokémon |
-| ⭐ **Colecionador** | Favorite muitos Pokémon | 50 favoritos |
-
----
-
-## 🔧 **Development**
-
-### **🛠️ Setup Desenvolvimento**
+2. Execute o servidor local:
 ```bash
-# Clone e setup
-git clone <repository-url>
-cd Pokedx_V2_PWA
-
-# Desenvolvimento com hot reload
 npm run dev
-
-# Build production
-npm run build
-
-# Testes
-npm run test
-
-# PWA validation
-npm run pwa-audit
 ```
 
-### **📋 Contribuindo**
-1. 🍴 Fork o projeto
-2. 🌿 Crie feature branch (`git checkout -b feature/nova-funcionalidade`)  
-3. 💾 Commit mudanças (`git commit -m 'feat: adiciona nova funcionalidade'`)
-4. 📤 Push branch (`git push origin feature/nova-funcionalidade`)
-5. 🔀 Abra Pull Request
+3. Acesse `http://localhost:3000`
+
+### Opção 3: Deploy
+Para deploy em produção, use:
+```bash
+npm run build
+```
+
+## 🛠️ Estrutura do Projeto
+
+```
+pokedx-v2/
+├── index.html              # Página principal
+├── css/
+│   ├── style.css          # Estilos principais
+│   └── responsive.css     # Media queries
+├── js/
+│   ├── main.js            # Aplicação principal
+│   ├── pokemon-api.js     # Gerenciador da PokéAPI
+│   ├── comparison.js      # Módulo de comparação
+│   └── team-builder.js    # Construtor de equipes
+├── package.json           # Configurações do projeto
+├── vercel.json           # Configuração de deploy
+└── README.md             # Documentação
+```
+
+## 🔧 Configuração para Deploy
+
+### Vercel
+Arquivo `vercel.json` incluído com configurações otimizadas:
+```json
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "."
+}
+```
+
+### Netlify
+Para deploy no Netlify, configure:
+- Build command: `npm run build`
+- Publish directory: `.`
+
+### GitHub Pages
+1. Faça push do código para GitHub
+2. Vá em Settings > Pages
+3. Selecione a branch main como fonte
+4. A aplicação estará disponível em `https://seu-usuario.github.io/pokedx-v2`
+
+## 🐛 Correções Implementadas
+
+Esta versão V2.0 corrige os seguintes problemas da versão anterior:
+
+✅ **Imagens dos Pokémon** - Sistema robusto de fallback para sprites  
+✅ **Correção Ortográfica** - "Podedx" → "Pokédx" em toda aplicação  
+✅ **Suporte Completo** - Todas as 9 gerações implementadas  
+✅ **Comparador Funcional** - Event listeners corrigidos  
+✅ **Construtor de Equipes** - Sistema completo e persistente  
+
+## 🔄 API e Cache
+
+- **Cache inteligente** para reduzir requisições
+- **Fallback de imagens** para garantir carregamento
+- **Tratamento de erros** robusto
+- **Rate limiting** respeitoso com a PokéAPI
+
+## 📱 Responsividade
+
+- **Mobile First** - Otimizado para celulares
+- **Tablet** - Layout adaptado para tablets
+- **Desktop** - Aproveitamento completo de telas grandes
+- **Print** - Estilos otimizados para impressão
+
+## 🧪 Testes
+
+Para executar testes básicos:
+```bash
+npm test
+```
+
+## 📈 Performance
+
+- **Lazy Loading** de imagens
+- **Pagination** inteligente
+- **Debounce** em buscas
+- **Cache** eficiente
+- **Bundle** otimizado
+
+## 🤝 Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## 👥 Desenvolvido por SID
+
+**SID - Soluções Digitais de Excelência**
+
+Seguindo nossos valores fundamentais:
+- **Excelência** - Código limpo e otimizado
+- **Inovação** - Tecnologias modernas e boas práticas
+- **Transparência** - Código open source e documentado
+- **Colaboração** - Interface intuitiva e acessível
+- **Educação** - Comentários e estrutura didática
+
+## 🙏 Agradecimentos
+
+- [PokéAPI](https://pokeapi.co/) - Fonte oficial de dados Pokémon
+- [The Pokémon Company](https://www.pokemon.com/) - Criadores do universo Pokémon
+- Comunidade open source - Inspiração e suporte
 
 ---
 
-## 📱 **Browser Support**
+⭐ Se este projeto foi útil, considere dar uma estrela no repositório!
 
-| Browser | Desktop | Mobile | PWA Install |
-|---------|---------|---------|-------------|
-| 🌐 **Chrome** | ✅ Full | ✅ Full | ✅ Yes |
-| 🦊 **Firefox** | ✅ Full | ✅ Full | ⚠️ Limited |
-| 🧭 **Safari** | ✅ Full | ✅ Full | ✅ Yes (iOS 14+) |
-| 📘 **Edge** | ✅ Full | ✅ Full | ✅ Yes |
-| 🎭 **Opera** | ✅ Full | ✅ Full | ✅ Yes |
+🐛 Encontrou um bug? [Abra uma issue](https://github.com/seu-usuario/pokedx-v2/issues)
 
----
-
-## 🗺️ **Roadmap**
-
-### **🔜 V2.1 (Q1 2026)**
-- [ ] 🎮 **Multiplayer battles** online
-- [ ] 🤖 **AI-powered** team suggestions  
-- [ ] 🌐 **Social features** e comunidade
-- [ ] 📊 **Advanced analytics** dashboard
-- [ ] 🎵 **Sound effects** e música
-
-### **🌟 V3.0 (Q2 2026)**
-- [ ] 🥽 **AR Mode** para visualização 3D
-- [ ] 🔗 **Blockchain** integration para NFTs
-- [ ] 🧠 **Machine Learning** para previsões
-- [ ] 🎮 **VR Experience** imersiva
-- [ ] 🏪 **Marketplace** para trading
-
----
-
-## 📞 **Suporte**
-
-### **🆘 Como Obter Ajuda**
-- 📖 **Documentação**: Veja seção docs/
-- 🐛 **Bug Reports**: GitHub Issues
-- 💡 **Feature Requests**: GitHub Discussions  
-- 📧 **Contato Direto**: equipe-sid@pokedx.com
-- 💬 **Discord**: [Comunidade Pokédx](/)
-
-### **🔗 Links Úteis**
-- 🚀 **App Live**: [Pokédx V2.0 PWA](/)
-- 📂 **Repository**: [GitHub](https://github.com/Miked0/Pokedx_V2_PWA)
-- 📱 **Google Play**: Em breve
-- 🍎 **App Store**: Em breve
-
----
-
-## 📄 **Licença**
-
-Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
-
-## 🙏 **Agradecimentos**
-
-- 🌟 **PokeAPI** - Dados completos e API fantástica
-- 🎮 **Pokémon Company** - Universo inspirador
-- 🚀 **Comunidade PWA** - Padrões e melhores práticas
-- 💻 **Open Source** - Ferramentas e bibliotecas
-- 👥 **Beta testers** - Feedback valioso
-
----
-
-## 🏆 **Awards & Recognition**
-
-- 🥇 **PWA of the Year 2025** - Web.dev Community
-- 🏆 **Best Gaming Experience** - PWA Awards
-- ⚡ **Performance Excellence** - Lighthouse Champions
-- 🎨 **Outstanding Design** - CSS Design Awards
-- ♿ **Accessibility Champion** - A11Y Project
-
----
-
-<div align="center">
-
-**🎮 Desenvolvido com ❤️ pela Equipe SID Elite**
-
-**Where Gaming Meets Technology Excellence**
-
-[⭐ Star no GitHub](/) | 
-[🐛 Reportar Bug](/) | 
-[💡 Sugerir Feature](/) |
-[📱 Instalar PWA](/)
-
----
-
-*"A evolução nunca para. A Pokédx V2.0 representa o futuro das Progressive Web Apps."*
-
-**Dr. Mariana Torres, CEO - Equipe SID**
-
-</div>
+💡 Tem uma sugestão? [Inicie uma discussão](https://github.com/seu-usuario/pokedx-v2/discussions)

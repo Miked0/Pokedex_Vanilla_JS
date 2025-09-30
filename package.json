@@ -1,41 +1,33 @@
 {
-  "name": "pokedx-v2-pwa",
+  "name": "pokedx-v2",
   "version": "2.0.0",
-  "description": "A Pokédx mais avançada - PWA Premium com 9 gerações",
+  "description": "Pokédx V2.0 - Pokédex completa com todas as gerações, comparador e construtor de equipes",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve .",
-    "dev": "npx serve . --cors",
-    "build": "echo 'Build complete - ready for production'",
-    "test": "echo 'Testing PWA functionality...'",
-    "pwa-audit": "npx lighthouse-ci autorun",
-    "deploy": "./scripts/deploy.sh"
+    "start": "serve .",
+    "build": "echo 'Build completed - ready for production'",
+    "dev": "serve . -l 3000",
+    "test": "echo 'Tests would run here'"
   },
   "keywords": [
-    "pokemon", "pokedx", "pwa", "progressive-web-app", 
-    "javascript", "gaming", "battle-simulator", "team-builder"
+    "pokemon",
+    "pokedex",
+    "javascript",
+    "vanilla",
+    "api",
+    "game"
   ],
-  "author": {
-    "name": "Equipe SID Elite",
-    "email": "equipe-sid@pokedx.com",
-    "url": "https://github.com/Miked0"
-  },
+  "author": "SID - Soluções Digitais de Excelência",
   "license": "MIT",
-  "homepage": "https://pokedex-vanilla-js.vercel.app/",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Miked0/Pokedex_Vanilla_JS.git"
+    "url": "https://github.com/seu-usuario/pokedx-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/Miked0/Pokedex_Vanilla_JS/issues"
+    "url": "https://github.com/seu-usuario/pokedx-v2/issues"
   },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+  "homepage": "https://seu-usuario.github.io/pokedx-v2"
 }
