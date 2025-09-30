@@ -223,32 +223,9 @@ npx vercel
 
 ## 👥 Equipe de Desenvolvimento
 
-### 🌟 Equipe SID - Especialistas em Excelência Digital
+**Michael Douglas**
 
-**Dr. Mariana Torres** - CEO & Product Owner
-- PhD em Gestão e Inovação - Stanford University
-- Visão estratégica e alinhamento de negócios
-- Especialista em transformação digital
 
-**Ricardo Almeida, M.Eng.** - COO & Scrum Master  
-- Master of Engineering - MIT
-- Lean Six Sigma Master Black Belt
-- Coordenação de cronograma e metodologia ágil
-
-**Michael Douglas** - Principal Software Architect
-- PhD em Software Engineering - Stanford University
-- Especialista em microserviços e cloud
-- Arquitetura de backend e integração com PokeAPI
-
-**Fernanda Martins, B.S.** - Staff Frontend Engineer
-- B.S. Computer Science - MIT (Magna Cum Laude)
-- Especialista em React e performance web
-- Componentes UI e experiência do usuário
-
-**Ygor Silva, MFA** - Chief Design Officer
-- MFA Design - Parsons School of Design
-- Especialista em sistemas de design
-- Identidade visual e design system
 
 ## 🤝 Contribuindo
 
