@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - Gerações I, II e III</title>
+    <meta name="description" content="Explore as primeiras 3 gerações de Pokémon (Kanto, Johto, Hoenn) com nossa Pokédex interativa">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/components.css">
+    <link rel="preconnect" href="https://pokeapi.co">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">
+                <span class="pokeball-icon">⚪</span>
+                Pokédex
+            </h1>
+            <p class="header__subtitle">Gerações I, II & III</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Barra de Pesquisa -->
+            <section class="search-section">
+                <div class="search-bar" id="searchBar">
+                    <input 
+                        type="text" 
+                        id="searchInput"
+                        placeholder="Buscar Pokémon por nome ou número..."
+                        class="search-input"
+                        autocomplete="off"
+                    >
+                    <button class="search-button" id="searchButton" type="button">
+                        🔍
+                    </button>
+                </div>
+
+                <!-- Painel de Filtros -->
+                <div class="filter-panel" id="filterPanel">
+                    <div class="filter-group">
+                        <label for="generationFilter">Geração:</label>
+                        <select id="generationFilter" class="filter-select">
+                            <option value="">Todas</option>
+                            <option value="1">Geração I (Kanto)</option>
+                            <option value="2">Geração II (Johto)</option>
+                            <option value="3">Geração III (Hoenn)</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="typeFilter">Tipo:</label>
+                        <select id="typeFilter" class="filter-select">
+                            <option value="">Todos os tipos</option>
+                        </select>
+                    </div>
+
+                    <button class="filter-clear" id="clearFilters">
+                        Limpar Filtros
+                    </button>
+                </div>
+            </section>
+
+            <!-- Loading Indicator -->
+            <div class="loading" id="loadingIndicator">
+                <div class="loading__spinner"></div>
+                <p>Carregando Pokémon...</p>
+            </div>
+
+            <!-- Grid de Pokémon -->
+            <section class="pokemon-section">
+                <div class="pokemon-grid" id="pokemonGrid">
+                    <!-- Os cards dos Pokémon serão inseridos aqui dinamicamente -->
+                </div>
+            </section>
+
+            <!-- Paginação -->
+            <section class="pagination-section">
+                <div class="pagination" id="pagination">
+                    <button class="pagination__btn" id="prevBtn" disabled>
+                        ← Anterior
+                    </button>
+                    <span class="pagination__info" id="paginationInfo">
+                        Página 1 de 1
+                    </span>
+                    <button class="pagination__btn" id="nextBtn">
+                        Próximo →
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal de Detalhes -->
+    <div class="modal" id="pokemonModal">
+        <div class="modal__overlay" id="modalOverlay"></div>
+        <div class="modal__content">
+            <button class="modal__close" id="modalClose">×</button>
+            <div class="modal__body" id="modalBody">
+                <!-- Conteúdo do modal será inserido dinamicamente -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="src/utils/constants.js"></script>
+    <script type="module" src="src/utils/helpers.js"></script>
+    <script type="module" src="src/services/CacheManager.js"></script>
+    <script type="module" src="src/services/PokeAPI.js"></script>
+    <script type="module" src="src/components/PokemonCard.js"></script>
+    <script type="module" src="src/components/SearchBar.js"></script>
+    <script type="module" src="src/components/FilterPanel.js"></script>
+    <script type="module" src="src/components/PokemonGrid.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
