@@ -1,0 +1,12 @@
+[
+  {"id": "first_pokemon", "name": "Primeiro Pokémon", "description": "Visualize seu primeiro Pokémon", "icon": "🎯", "rarity": "common"},
+  {"id": "generation_master", "name": "Mestre da Geração", "description": "Complete todos Pokémon de uma geração", "icon": "👑", "rarity": "rare"},
+  {"id": "team_builder", "name": "Construtor de Equipes", "description": "Crie sua primeira equipe", "icon": "👥", "rarity": "common"},
+  {"id": "battle_champion", "name": "Campeão de Batalhas", "description": "Ganhe 10 simulações de batalha", "icon": "🏆", "rarity": "rare"},
+  {"id": "explorer", "name": "Explorador", "description": "Veja 100 Pokémon diferentes", "icon": "🗺️", "rarity": "uncommon"},
+  {"id": "collector", "name": "Colecionador Elite", "description": "Favorite 50 Pokémon", "icon": "⭐", "rarity": "uncommon"},
+  {"id": "pwa_master", "name": "PWA Master", "description": "Instale a aplicação como PWA", "icon": "📱", "rarity": "common"},
+  {"id": "all_types", "name": "Especialista em Tipos", "description": "Veja Pokémon de todos os 18 tipos", "icon": "🌈", "rarity": "rare"},
+  {"id": "comparison_expert", "name": "Expert em Comparação", "description": "Use o comparador 25 vezes", "icon": "🔍", "rarity": "uncommon"},
+  {"id": "legendary_hunter", "name": "Caçador de Lendários", "description": "Encontre 10 Pokémon lendários", "icon": "✨", "rarity": "epic"}
+]

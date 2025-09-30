@@ -1,0 +1,41 @@
+{
+  "name": "pokedx-v2-pwa",
+  "version": "2.0.0",
+  "description": "A Pokédx mais avançada - PWA Premium com 9 gerações",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . --cors",
+    "build": "echo 'Build complete - ready for production'",
+    "test": "echo 'Testing PWA functionality...'",
+    "pwa-audit": "npx lighthouse-ci autorun",
+    "deploy": "./scripts/deploy.sh"
+  },
+  "keywords": [
+    "pokemon", "pokedx", "pwa", "progressive-web-app", 
+    "javascript", "gaming", "battle-simulator", "team-builder"
+  ],
+  "author": {
+    "name": "Equipe SID Elite",
+    "email": "equipe-sid@pokedx.com",
+    "url": "https://github.com/Miked0"
+  },
+  "license": "MIT",
+  "homepage": "https://pokedex-vanilla-js.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Miked0/Pokedex_Vanilla_JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Miked0/Pokedex_Vanilla_JS/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

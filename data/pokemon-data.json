@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "last_updated": "2025-09-30",
+    "total_pokemon": 1025,
+    "generations_supported": 9,
+    "api_source": "PokeAPI v2"
+  },
+  "generations": [
+    {"id": 1, "name": "Kanto", "start": 1, "end": 151, "region": "Kanto"},
+    {"id": 2, "name": "Johto", "start": 152, "end": 251, "region": "Johto"},
+    {"id": 3, "name": "Hoenn", "start": 252, "end": 386, "region": "Hoenn"},
+    {"id": 4, "name": "Sinnoh", "start": 387, "end": 493, "region": "Sinnoh"},
+    {"id": 5, "name": "Unova", "start": 494, "end": 649, "region": "Unova"},
+    {"id": 6, "name": "Kalos", "start": 650, "end": 721, "region": "Kalos"},
+    {"id": 7, "name": "Alola", "start": 722, "end": 809, "region": "Alola"},
+    {"id": 8, "name": "Galar", "start": 810, "end": 905, "region": "Galar"},
+    {"id": 9, "name": "Paldea", "start": 906, "end": 1025, "region": "Paldea"}
+  ],
+  "cache_strategy": "network_first_with_fallback"
+}
